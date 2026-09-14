@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Education_Level__c</fullName>
+    <label>Education Level</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Some High School</fullName>
+                <default>false</default>
+                <label>Some High School</label>
+            </value>
+            <value>
+                <fullName>High School Diploma</fullName>
+                <default>false</default>
+                <label>High School Diploma</label>
+            </value>
+            <value>
+                <fullName>GED</fullName>
+                <default>false</default>
+                <label>GED</label>
+            </value>
+            <value>
+                <fullName>Some College</fullName>
+                <default>false</default>
+                <label>Some College</label>
+            </value>
+            <value>
+                <fullName>Some Trade School</fullName>
+                <default>false</default>
+                <label>Some Trade School</label>
+            </value>
+            <value>
+                <fullName>Trade School Certificate</fullName>
+                <default>false</default>
+                <label>Trade School Certificate</label>
+            </value>
+            <value>
+                <fullName>Associate Degree</fullName>
+                <default>false</default>
+                <label>Associate Degree</label>
+            </value>
+            <value>
+                <fullName>Bachlors Degree</fullName>
+                <default>false</default>
+                <label>Bachlors Degree</label>
+            </value>
+            <value>
+                <fullName>Graduate Degree</fullName>
+                <default>false</default>
+                <label>Graduate Degree</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Military_Status__c</fullName>
+    <description>Relabel from Military Experience 03.13.2024</description>
+    <inlineHelpText>Data is mapped at Lead Conversion, supports reference fields on Oppty and Student Program</inlineHelpText>
+    <label>Military Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No Military Experience</fullName>
+                <default>false</default>
+                <label>No Military Experience</label>
+            </value>
+            <value>
+                <fullName>Active Military</fullName>
+                <default>false</default>
+                <label>Active Military</label>
+            </value>
+            <value>
+                <fullName>Veteran</fullName>
+                <default>false</default>
+                <label>Veteran</label>
+            </value>
+            <value>
+                <fullName>Military Spouse</fullName>
+                <default>false</default>
+                <label>Military Spouse</label>
+            </value>
+            <value>
+                <fullName>Military Dependent</fullName>
+                <default>false</default>
+                <label>Military Dependent</label>
+            </value>
+            <value>
+                <fullName>Reservist</fullName>
+                <default>false</default>
+                <label>Reservist</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

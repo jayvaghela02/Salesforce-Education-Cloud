@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Program__c</fullName>
+    <label>Program</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>IT ProCareer</fullName>
+                <default>false</default>
+                <label>IT ProCareer</label>
+            </value>
+            <value>
+                <fullName>IT ProCareer (Govt)</fullName>
+                <default>false</default>
+                <label>IT ProCareer (Govt)</label>
+            </value>
+            <value>
+                <fullName>IT ProBasic</fullName>
+                <default>false</default>
+                <label>IT ProBasic</label>
+            </value>
+            <value>
+                <fullName>IT ProBasic (Govt)</fullName>
+                <default>false</default>
+                <label>IT ProBasic (Govt)</label>
+            </value>
+            <value>
+                <fullName>IT ProCareer Upgrade</fullName>
+                <default>false</default>
+                <label>IT ProCareer Upgrade</label>
+            </value>
+            <value>
+                <fullName>IT ProOnline</fullName>
+                <default>false</default>
+                <label>IT ProOnline</label>
+            </value>
+            <value>
+                <fullName>IT ProAdvanced</fullName>
+                <default>false</default>
+                <label>IT ProAdvanced</label>
+            </value>
+            <value>
+                <fullName>CiscoPro</fullName>
+                <default>false</default>
+                <label>CiscoPro</label>
+            </value>
+            <value>
+                <fullName>ITSA</fullName>
+                <default>false</default>
+                <label>ITSA</label>
+            </value>
+            <value>
+                <fullName>ITSE</fullName>
+                <default>false</default>
+                <label>ITSE</label>
+            </value>
+            <value>
+                <fullName>MCBA</fullName>
+                <default>false</default>
+                <label>MCBA</label>
+            </value>
+            <value>
+                <fullName>HSIS</fullName>
+                <default>false</default>
+                <label>HSIS</label>
+            </value>
+            <value>
+                <fullName>PHARM</fullName>
+                <default>false</default>
+                <label>PHARM</label>
+            </value>
+            <value>
+                <fullName>CONT. ED</fullName>
+                <default>false</default>
+                <label>CONT. ED</label>
+            </value>
+            <value>
+                <fullName>ADMIN SPEC</fullName>
+                <default>false</default>
+                <label>ADMIN SPEC</label>
+            </value>
+            <value>
+                <fullName>PC Tech</fullName>
+                <default>false</default>
+                <label>PC Tech</label>
+            </value>
+            <value>
+                <fullName>Voc Rehab</fullName>
+                <default>false</default>
+                <label>Voc Rehab</label>
+            </value>
+            <value>
+                <fullName>eCom</fullName>
+                <default>false</default>
+                <label>eCom</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

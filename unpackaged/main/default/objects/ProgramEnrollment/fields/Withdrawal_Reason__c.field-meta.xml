@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Withdrawal_Reason__c</fullName>
+    <label>Withdrawal Reason</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Academic Dismissal</fullName>
+                <default>false</default>
+                <label>Academic Dismissal</label>
+            </value>
+            <value>
+                <fullName>Attendance Violation</fullName>
+                <default>false</default>
+                <label>Attendance Violation</label>
+            </value>
+            <value>
+                <fullName>Financial</fullName>
+                <default>false</default>
+                <label>Financial</label>
+            </value>
+            <value>
+                <fullName>Personal / Family</fullName>
+                <default>false</default>
+                <label>Personal / Family</label>
+            </value>
+            <value>
+                <fullName>Medical</fullName>
+                <default>false</default>
+                <label>Medical</label>
+            </value>
+            <value>
+                <fullName>Employment Conflict</fullName>
+                <default>false</default>
+                <label>Employment Conflict</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

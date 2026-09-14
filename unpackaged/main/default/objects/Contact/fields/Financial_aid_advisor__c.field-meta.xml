@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Financial_aid_advisor__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Financial aid advisor</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Advisees_Fin_Aid</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Lookup</type>
+</CustomField>

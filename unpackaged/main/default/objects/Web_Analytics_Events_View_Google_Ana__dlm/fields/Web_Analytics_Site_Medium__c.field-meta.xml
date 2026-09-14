@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Web_Analytics_Site_Medium__c</fullName>
+    <label>Web Analytics Site Medium</label>
+    <length>60</length>
+    <mktDataModelFieldAttributes>
+        <definitionCreationType>Custom</definitionCreationType>
+        <isDynamicLookup>true</isDynamicLookup>
+        <labelOverride>Web Analytics Site Medium</labelOverride>
+        <masterLabel>Web Analytics Site Medium</masterLabel>
+        <usageTag>None</usageTag>
+    </mktDataModelFieldAttributes>
+    <required>false</required>
+    <type>Text</type>
+</CustomField>

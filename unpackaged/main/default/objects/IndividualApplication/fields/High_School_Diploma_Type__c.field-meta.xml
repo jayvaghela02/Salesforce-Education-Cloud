@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>High_School_Diploma_Type__c</fullName>
+    <label>High School Diploma Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Standard High School Diploma</fullName>
+                <default>false</default>
+                <label>Standard High School Diploma</label>
+            </value>
+            <value>
+                <fullName>GED</fullName>
+                <default>false</default>
+                <label>GED</label>
+            </value>
+            <value>
+                <fullName>Home School</fullName>
+                <default>false</default>
+                <label>Home School</label>
+            </value>
+            <value>
+                <fullName>Foreign Equivalent</fullName>
+                <default>false</default>
+                <label>Foreign Equivalent</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

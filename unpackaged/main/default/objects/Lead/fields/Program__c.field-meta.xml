@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Program__c</fullName>
+    <description>Picklist to represent Program types as Student (Lead) indicates during admissions. Field is read-only in SF screens as it is mapped and maintained via Hubspot.</description>
+    <label>Campaign Name (Marketing)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>529 Plan</fullName>
+                <default>false</default>
+                <label>529 Plan</label>
+            </value>
+            <value>
+                <fullName>bBIG</fullName>
+                <default>false</default>
+                <label>bBIG</label>
+            </value>
+            <value>
+                <fullName>Bilingual</fullName>
+                <default>false</default>
+                <label>Bilingual</label>
+            </value>
+            <value>
+                <fullName>BOGO</fullName>
+                <default>false</default>
+                <label>BOGO</label>
+            </value>
+            <value>
+                <fullName>CiscoPro</fullName>
+                <default>false</default>
+                <label>CiscoPro</label>
+            </value>
+            <value>
+                <fullName>CONT. ED</fullName>
+                <default>false</default>
+                <label>CONT. ED</label>
+            </value>
+            <value>
+                <fullName>CWP Public</fullName>
+                <default>false</default>
+                <label>CWP Public</label>
+            </value>
+            <value>
+                <fullName>CWP SkillBridge</fullName>
+                <default>false</default>
+                <label>CWP SkillBridge</label>
+            </value>
+            <value>
+                <fullName>eCom</fullName>
+                <default>false</default>
+                <label>eCom</label>
+            </value>
+            <value>
+                <fullName>HSIS</fullName>
+                <default>false</default>
+                <label>HSIS</label>
+            </value>
+            <value>
+                <fullName>HS Recruitment</fullName>
+                <default>false</default>
+                <label>HS Recruitment</label>
+            </value>
+            <value>
+                <fullName>IT ProAdvanced</fullName>
+                <default>false</default>
+                <label>IT ProAdvanced</label>
+            </value>
+            <value>
+                <fullName>IT ProBasic</fullName>
+                <default>false</default>
+                <label>IT ProBasic</label>
+            </value>
+            <value>
+                <fullName>IT ProCareer</fullName>
+                <default>false</default>
+                <label>IT ProCareer</label>
+            </value>
+            <value>
+                <fullName>IT ProOnline</fullName>
+                <default>false</default>
+                <label>IT ProOnline</label>
+            </value>
+            <value>
+                <fullName>ITSA</fullName>
+                <default>false</default>
+                <label>ITSA</label>
+            </value>
+            <value>
+                <fullName>ITSE</fullName>
+                <default>false</default>
+                <label>ITSE</label>
+            </value>
+            <value>
+                <fullName>MCBA</fullName>
+                <default>false</default>
+                <label>MCBA</label>
+            </value>
+            <value>
+                <fullName>PHARM</fullName>
+                <default>false</default>
+                <label>PHARM</label>
+            </value>
+            <value>
+                <fullName>Recruit Military</fullName>
+                <default>false</default>
+                <label>Recruit Military</label>
+            </value>
+            <value>
+                <fullName>Voc Rehab</fullName>
+                <default>false</default>
+                <label>Voc Rehab</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

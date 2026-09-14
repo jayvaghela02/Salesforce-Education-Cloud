@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Student_Learner</fullName>
+    <active>true</active>
+    <businessProcess>Student Admissions</businessProcess>
+    <label>Student / Learner</label>
+    <picklistValues>
+        <picklist>Contacted_Method__c</picklist>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Media Chat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Text</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website Chat</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Education_Level__c</picklist>
+        <values>
+            <fullName>Associate Degree</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bachlors Degree</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GED</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Graduate Degree</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High School Diploma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Some College</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Some High School</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Some Trade School</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade School Certificate</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GenderIdentity</picklist>
+        <values>
+            <fullName>Female</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Male</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nonbinary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Listed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry</picklist>
+        <values>
+            <fullName>Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Apparel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biotechnology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chemicals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Communications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Construction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electronics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entertainment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Environmental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food %26 Beverage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Healthcare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospitality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Machinery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not For Profit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recreation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telecommunications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Advertisement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>External Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Google AdWords</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchased List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade Show</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Name</picklist>
+        <values>
+            <fullName>Dr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mrs%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ms%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mx%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prof%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Preferred_Campus__c</picklist>
+        <values>
+            <fullName>Online Campus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Raleigh Campus</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Program__c</picklist>
+        <values>
+            <fullName>529 Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOGO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bilingual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CONT%2E ED</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CWP Public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CWP SkillBridge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CiscoPro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HS Recruitment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HSIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT ProAdvanced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT ProBasic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT ProCareer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT ProOnline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ITSA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ITSE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MCBA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PHARM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recruit Military</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Voc Rehab</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>bBIG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>eCom</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Pronouns</picklist>
+        <values>
+            <fullName>He%2FHim</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>He%2FThey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Listed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>She%2FHer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>She%2FThey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>They%2FThem</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rating</picklist>
+        <values>
+            <fullName>Cold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Scheduled_Location__c</picklist>
+        <values>
+            <fullName>Arlington</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Charlotte</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Columbus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dallas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Houston</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indianapolis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Live OnLine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nellis AFB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On-site Event Consult</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Raleigh</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sugar Land</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Scheduled_Method__c</picklist>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Media Chat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Text</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website Chat</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Scheduled_Time__c</picklist>
+        <values>
+            <fullName>09%3A00 AM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>09%3A15 AM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1%3A00 PM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1%3A15 PM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1%3A30 PM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1%3A45 PM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10%3A00 AM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10%3A15 AM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10%3A30 AM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10%3A45 AM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11%3A00 AM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11%3A15 AM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11%3A30 AM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12%3A00 PM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12%3A15 PM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12%3A30 PM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2%3A00 PM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2%3A15 PM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2%3A30 PM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%3A00 pm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%3A15 PM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%3A30 PM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4%3A00 PM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4%3A15 PM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4%3A30 PM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5%3A00 PM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5%3A15 PM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5%3A30 PM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6%3A00 PM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6%3A15 PM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6%3A30 PM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6%3A40 pm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6%3A45 PM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7%3A00 PM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7%3A15 PM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7%3A30 PM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8%3A00 PM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8%3A15 PM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9%3A00 PM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9%3A30 AM</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Scheduled_type__c</picklist>
+        <values>
+            <fullName>Hot Transfer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Site MCF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On-Campus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Remote</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>School__c</picklist>
+        <values>
+            <fullName>Arlington%2C TX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Austin%2C TX - LIVE ONLINE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Charlotte%2C NC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Columbus %28Westerville%29%2C OH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DC%2FBaltimore - LIVE ONLINE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dallas%2C TX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fayetteville%2C NC - LIVE ONLINE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Houston%2C TX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indianapolis%2C IN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nellis%2C NV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New York Metro - LIVE ONLINE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Location - LIVE ONLINE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Raleigh%2C NC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sugar Land%2C TX</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Showed_Location__c</picklist>
+        <values>
+            <fullName>Arlington Campus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Charlotte Campus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Columbus Campus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dallas Campus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Holly Springs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Houston Campus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indy Campus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nellis AFB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On_site_Event_Consult</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Raleigh Campus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sugar Land</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

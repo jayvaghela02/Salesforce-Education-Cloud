@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>School__c</fullName>
+    <label>Market</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Columbus (Westerville), OH</fullName>
+                <default>false</default>
+                <label>Columbus (Westerville), OH</label>
+            </value>
+            <value>
+                <fullName>Fayetteville, NC - LIVE ONLINE</fullName>
+                <default>false</default>
+                <label>Fayetteville, NC - LIVE ONLINE</label>
+            </value>
+            <value>
+                <fullName>DC/Baltimore - LIVE ONLINE</fullName>
+                <default>false</default>
+                <label>DC/Baltimore - LIVE ONLINE</label>
+            </value>
+            <value>
+                <fullName>New York Metro - LIVE ONLINE</fullName>
+                <default>false</default>
+                <label>New York Metro - LIVE ONLINE</label>
+            </value>
+            <value>
+                <fullName>Austin, TX - LIVE ONLINE</fullName>
+                <default>false</default>
+                <label>Austin, TX - LIVE ONLINE</label>
+            </value>
+            <value>
+                <fullName>Dallas, TX</fullName>
+                <default>false</default>
+                <label>Dallas, TX</label>
+            </value>
+            <value>
+                <fullName>Houston, TX</fullName>
+                <default>false</default>
+                <label>Houston, TX</label>
+            </value>
+            <value>
+                <fullName>Indianapolis, IN</fullName>
+                <default>false</default>
+                <label>Indianapolis, IN</label>
+            </value>
+            <value>
+                <fullName>Raleigh, NC</fullName>
+                <default>false</default>
+                <label>Raleigh, NC</label>
+            </value>
+            <value>
+                <fullName>Charlotte, NC</fullName>
+                <default>false</default>
+                <label>Charlotte, NC</label>
+            </value>
+            <value>
+                <fullName>Arlington, TX</fullName>
+                <default>false</default>
+                <label>Arlington, TX</label>
+            </value>
+            <value>
+                <fullName>Other Location - LIVE ONLINE</fullName>
+                <default>false</default>
+                <label>Other Location - LIVE ONLINE</label>
+            </value>
+            <value>
+                <fullName>Sugar Land, TX</fullName>
+                <default>false</default>
+                <label>Sugar Land, TX</label>
+            </value>
+            <value>
+                <fullName>Nellis, NV</fullName>
+                <default>false</default>
+                <label>Nellis, NV</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

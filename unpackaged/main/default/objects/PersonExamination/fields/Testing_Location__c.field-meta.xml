@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Testing_Location__c</fullName>
+    <label>Testing Location</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>On-Campus Testing Center</fullName>
+                <default>false</default>
+                <label>On-Campus Testing Center</label>
+            </value>
+            <value>
+                <fullName>Online / Home Proctor</fullName>
+                <default>false</default>
+                <label>Online / Home Proctor</label>
+            </value>
+            <value>
+                <fullName>Third-Party Testing Site</fullName>
+                <default>false</default>
+                <label>Third-Party Testing Site</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

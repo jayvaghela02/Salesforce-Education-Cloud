@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Military_Branch__c</fullName>
+    <description>Branch of Service in the US Military</description>
+    <label>Military Branch</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Air Force</fullName>
+                <color>#0B6FCE</color>
+                <default>false</default>
+                <label>Air Force</label>
+            </value>
+            <value>
+                <fullName>Army</fullName>
+                <color>#78C953</color>
+                <default>false</default>
+                <label>Army</label>
+            </value>
+            <value>
+                <fullName>Coast Guard</fullName>
+                <color>#E27001</color>
+                <default>false</default>
+                <label>Coast Guard</label>
+            </value>
+            <value>
+                <fullName>Marines</fullName>
+                <color>#A845DC</color>
+                <default>false</default>
+                <label>Marines</label>
+            </value>
+            <value>
+                <fullName>National Guard</fullName>
+                <color>#F3D904</color>
+                <default>false</default>
+                <label>National Guard</label>
+            </value>
+            <value>
+                <fullName>Navy</fullName>
+                <color>#993300</color>
+                <default>false</default>
+                <label>Navy</label>
+            </value>
+            <value>
+                <fullName>Space Force</fullName>
+                <default>false</default>
+                <label>Space Force</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

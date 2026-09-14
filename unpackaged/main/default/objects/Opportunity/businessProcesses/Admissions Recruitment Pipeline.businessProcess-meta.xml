@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Admissions Recruitment Pipeline</fullName>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Accepted</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Application In Progress</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Contact Made %2F Discovery</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Disqualified %2F Cancelled</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Enrolled</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Interview %2F Tour Scheduled</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Interview Completed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>New Inquiry</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

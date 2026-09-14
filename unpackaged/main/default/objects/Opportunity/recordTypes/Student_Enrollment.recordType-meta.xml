@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Student_Enrollment</fullName>
+    <active>true</active>
+    <businessProcess>Admissions Recruitment Pipeline</businessProcess>
+    <label>Student Enrollment</label>
+    <picklistValues>
+        <picklist>Consultation_Type__c</picklist>
+        <values>
+            <fullName>Campus Visit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone Consultation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Virtual Video</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FIN_GI_Bill_VOC__c</picklist>
+        <values>
+            <fullName>Chapter 30 %28Montgomery%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chapter 31 %28VR%26E%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chapter 33 %28Post 9%2F11%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SkillBridge</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FIN_TuitionOpt__c</picklist>
+        <values>
+            <fullName>Cash %2F Self-Pay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Aid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private Loan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VA Benefits</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ForecastCategoryName</picklist>
+        <values>
+            <fullName>Best Case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Omitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pipeline</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Advertisement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>External Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Google AdWords</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchased List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade Show</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Loss_Reason__c</picklist>
+        <values>
+            <fullName>Lost to Competitor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Budget %2F Lost Funding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Decision %2F Non-Responsive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Price</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Preferred_Campus__c</picklist>
+        <values>
+            <fullName>Online Campus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Raleigh Campus</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>School__c</picklist>
+        <values>
+            <fullName>Charlotte</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Columbus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dallas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Houston</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indianapolis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Raleigh</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Temperature__c</picklist>
+        <values>
+            <fullName>Cold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Existing Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Business</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Student_Admissions</fullName>
+    <active>true</active>
+    <label>Student Admissions</label>
+    <picklistValues>
+        <picklist>Admissions_Interview_Result__c</picklist>
+        <values>
+            <fullName>Conditional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Recommended</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recommended</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ApplicationCategory</picklist>
+        <values>
+            <fullName>Early Decision</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regular Decision</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ApplicationType</picklist>
+        <values>
+            <fullName>Graduate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>International</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transfer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Undergraduate</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Application_Fee_Status__c</picklist>
+        <values>
+            <fullName>Paid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waived</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Category</picklist>
+        <values>
+            <fullName>Certificate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Continuing Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Degree</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>High_School_Diploma_Type__c</picklist>
+        <values>
+            <fullName>Foreign Equivalent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GED</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home School</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard High School Diploma</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Application Decision</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canceled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Draft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enrolled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enrollment Failed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Processing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ready For Decision</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Under Review</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tuition_Financing_Preference__c</picklist>
+        <values>
+            <fullName>Employer Sponsored</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Aid %28FAFSA%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Military %2F VA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Self-Pay %2F Cash</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

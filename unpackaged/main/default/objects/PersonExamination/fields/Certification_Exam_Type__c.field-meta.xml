@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Certification_Exam_Type__c</fullName>
+    <label>Certification Exam</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CompTIA Security+</fullName>
+                <default>false</default>
+                <label>CompTIA Security+</label>
+            </value>
+            <value>
+                <fullName>CompTIA Network+</fullName>
+                <default>false</default>
+                <label>CompTIA Network+</label>
+            </value>
+            <value>
+                <fullName>CompTIA A+ Core 1</fullName>
+                <default>false</default>
+                <label>CompTIA A+ Core 1</label>
+            </value>
+            <value>
+                <fullName>CompTIA A+ Core 2</fullName>
+                <default>false</default>
+                <label>CompTIA A+ Core 2</label>
+            </value>
+            <value>
+                <fullName>CompTIA CySA+</fullName>
+                <default>false</default>
+                <label>CompTIA CySA+</label>
+            </value>
+            <value>
+                <fullName>Cisco CCNA</fullName>
+                <default>false</default>
+                <label>Cisco CCNA</label>
+            </value>
+            <value>
+                <fullName>Wonderlic SLE</fullName>
+                <default>false</default>
+                <label>Wonderlic SLE</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

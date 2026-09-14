@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Consultation_Type__c</fullName>
+    <label>Consultation Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Campus Visit</fullName>
+                <default>false</default>
+                <label>Campus Visit</label>
+            </value>
+            <value>
+                <fullName>Phone Consultation</fullName>
+                <default>false</default>
+                <label>Phone Consultation</label>
+            </value>
+            <value>
+                <fullName>Virtual Video</fullName>
+                <default>false</default>
+                <label>Virtual Video</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

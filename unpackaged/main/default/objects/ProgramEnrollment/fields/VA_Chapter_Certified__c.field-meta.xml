@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VA_Chapter_Certified__c</fullName>
+    <label>VA Funding Certified</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Chapter 33 (Post 9/11)</fullName>
+                <default>false</default>
+                <label>Chapter 33 (Post 9/11)</label>
+            </value>
+            <value>
+                <fullName>Chapter 30 (Montgomery)</fullName>
+                <default>false</default>
+                <label>Chapter 30 (Montgomery)</label>
+            </value>
+            <value>
+                <fullName>Chapter 31 (VR&amp;E)</fullName>
+                <default>false</default>
+                <label>Chapter 31 (VR&amp;E)</label>
+            </value>
+            <value>
+                <fullName>Chapter 35 (DEA)</fullName>
+                <default>false</default>
+                <label>Chapter 35 (DEA)</label>
+            </value>
+            <value>
+                <fullName>SkillBridge</fullName>
+                <default>false</default>
+                <label>SkillBridge</label>
+            </value>
+            <value>
+                <fullName>Non-VA</fullName>
+                <default>false</default>
+                <label>Non-VA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

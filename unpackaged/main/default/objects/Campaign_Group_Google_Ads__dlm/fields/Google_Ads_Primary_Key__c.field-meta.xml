@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Google_Ads_Primary_Key__c</fullName>
+    <label>Google Ads Primary Key</label>
+    <length>60</length>
+    <mktDataModelFieldAttributes>
+        <definitionCreationType>Custom</definitionCreationType>
+        <isDynamicLookup>false</isDynamicLookup>
+        <labelOverride>Google Ads Primary Key</labelOverride>
+        <masterLabel>Google Ads Primary Key</masterLabel>
+        <primaryIndexOrder>1</primaryIndexOrder>
+        <usageTag>None</usageTag>
+    </mktDataModelFieldAttributes>
+    <required>false</required>
+    <type>Text</type>
+</CustomField>

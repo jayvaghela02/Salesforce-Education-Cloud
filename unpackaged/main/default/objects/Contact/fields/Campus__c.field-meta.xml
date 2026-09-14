@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campus__c</fullName>
+    <label>Campus</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Arlington</fullName>
+                <default>false</default>
+                <label>Arlington</label>
+            </value>
+            <value>
+                <fullName>Charlotte</fullName>
+                <default>false</default>
+                <label>Charlotte</label>
+            </value>
+            <value>
+                <fullName>Columbus</fullName>
+                <default>false</default>
+                <label>Columbus</label>
+            </value>
+            <value>
+                <fullName>Corporate</fullName>
+                <default>false</default>
+                <label>Corporate</label>
+            </value>
+            <value>
+                <fullName>Dallas</fullName>
+                <default>false</default>
+                <label>Dallas</label>
+            </value>
+            <value>
+                <fullName>Houston</fullName>
+                <default>false</default>
+                <label>Houston</label>
+            </value>
+            <value>
+                <fullName>Indianapolis</fullName>
+                <default>false</default>
+                <label>Indianapolis</label>
+            </value>
+            <value>
+                <fullName>IT Team</fullName>
+                <default>false</default>
+                <label>IT Team</label>
+            </value>
+            <value>
+                <fullName>Leadership</fullName>
+                <default>false</default>
+                <label>Leadership</label>
+            </value>
+            <value>
+                <fullName>Nellis AFB</fullName>
+                <default>false</default>
+                <label>Nellis AFB</label>
+            </value>
+            <value>
+                <fullName>Raleigh</fullName>
+                <default>false</default>
+                <label>Raleigh</label>
+            </value>
+            <value>
+                <fullName>Sugar Land</fullName>
+                <default>false</default>
+                <label>Sugar Land</label>
+            </value>
+            <value>
+                <fullName>Las Vegas</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Las Vegas</label>
+            </value>
+            <value>
+                <fullName>Live Online</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Live Online</label>
+            </value>
+            <value>
+                <fullName>Morrisville</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Morrisville</label>
+            </value>
+            <value>
+                <fullName>Provo</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Provo</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
